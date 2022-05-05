@@ -78,3 +78,74 @@ body{
 .detail-detail-middle-popular p{
     color: white;
 }
+
+.detail-middle{
+    display: inline-flex;
+}
+
+.img-detail-middle{
+    display: inline-block;
+}
+
+.img-detail-middle img{
+    width: 288px;
+    margin-left: 36px;
+    margin-top: 31px;
+}
+
+.text-detail-middle{
+    width: 570px;
+    height: 477px;
+    display: inline-block;
+}
+
+.text-detail-middle p{
+    margin-left: 50px;
+    margin-top: 293px;
+    font-size: 18px;
+}
+
+.watch-detail-middle{
+    display: inline-flex;
+    height: 38px;
+    width: 119px;
+    background-color: #191919;
+    border: 1.5px solid #405264;
+    border-radius: 3px;
+    color: #b2dbff;
+    margin-left: 86px;
+    margin-top: 41px;
+}
+
+.watch-detail-middle h5{
+    position: relative;
+    left: 30px;
+    bottom: 31px;
+}
+
+.watch-detail-middle i{
+    position: relative;
+    top: 10px;
+    left: 12px;
+}
+
+.ads-above-plyr{
+    width: 720px;
+    height: 90px;
+    background-color: black;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 287px;
+}
+
+.plyr-iframe{
+    width: 846px;
+    height: 448px;
+    background-color: black;
+    margin-top: 44px;
+    margin-left: 229px;
+}
+
+.plyr iframe iframe{
+    border: none;
+}
