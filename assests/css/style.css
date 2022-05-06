@@ -141,11 +141,32 @@ body{
 .plyr-iframe{
     width: 846px;
     height: 448px;
-    background-color: black;
     margin-top: 44px;
     margin-left: 229px;
+    border: none;
 }
 
 .plyr iframe iframe{
     border: none;
+}
+
+.options-plyr{
+    width: 846px;
+    height: 30px;
+    background-color: #393E46;
+    margin-left: 229px;
+    position: relative;
+    top: 45px;
+}
+
+.left-right-options i{
+    position: relative;
+    top: 5px;
+    left: 18px;
+}
+
+.download-options i{
+    position: relative;
+    left: 818px;
+    bottom: 12px;
 }
