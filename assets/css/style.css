@@ -1,3 +1,52 @@
 body{
     background-color: rgb(34, 40, 49);
 }
+
+.top-header{
+    display: inline-flex;
+}
+
+.text-top-header{
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 60px;
+    position: relative;
+    bottom: 6px;
+    left: 280px;
+}
+
+.text-top-header a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.ul-data-middle-content{
+    margin-top: 60px;
+    margin-left: 55px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 390px);
+}
+
+.outer-data-middle-content{
+    background-color: rgb(57, 62, 70);
+    width: 340px;
+    height: 200px;
+}
+
+
+.img-data-middle-content img{
+    width: 340px;
+    height: 177px;
+}
