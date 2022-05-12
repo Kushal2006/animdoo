@@ -33,10 +33,10 @@ body{
 
 .ul-data-middle-content{
     margin-top: 60px;
-    margin-left: 55px;
+    margin-left: 25px;
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(3, 390px);
+    grid-template-columns: repeat(3, 310px);
 }
 
 .outer-data-middle-content{
@@ -51,9 +51,25 @@ body{
     height: 143px;
 }
 
+.detail-data-middle-content{
+    display: inline-flex;
+}
+
 .detail-data-middle-content h4{
-    font-size: 13px;
+    color: white;
     text-decoration: none;
+    font-size: 12px;
     position: relative;
-    left: 67px;
+    left: 12px;
+    bottom: 5px;
+}
+
+.ul-data-middle-content a{
+    text-decoration: none;
+}
+
+.detail-data-middle-content img{
+    border-radius: 148px;
+    width: 40px;
+    height: 40px;
 }
