@@ -47,6 +47,13 @@ body{
 
 
 .img-data-middle-content img{
-    width: 340px;
-    height: 177px;
+    width: 253px;
+    height: 143px;
+}
+
+.detail-data-middle-content h4{
+    font-size: 13px;
+    text-decoration: none;
+    position: relative;
+    left: 67px;
 }
