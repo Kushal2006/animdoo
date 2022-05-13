@@ -28,7 +28,10 @@ body{
 
 
 
-
+.middle-content{
+    display: inline-flex;
+    width: 1332px;
+}
 
 
 .ul-data-middle-content{
@@ -72,4 +75,23 @@ body{
     border-radius: 148px;
     width: 40px;
     height: 40px;
+}
+
+.design-trending-middle-content{
+    width: 320px;
+    height: 400px;
+    background-color: #393E46;
+    margin-top: 58px;
+}
+
+.design-trending-middle-content img{
+    width: 166px;
+    height: 235px;
+    margin-top: 12px;
+    margin-left: 70px;
+}
+
+.design-trending-middle-content p{
+    margin-left: 14px;
+    color: white;
 }

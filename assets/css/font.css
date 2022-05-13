@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap');
 
 .text-top-header a{
     font-family: 'Poppins', sans-serif;
@@ -7,4 +7,8 @@
 
 .ul-data-middle-content a{
     font-family: 'Poppins', sans-serif;
+}
+
+.design-trending-middle-content p{
+    font-family: 'Radio Canada', sans-serif;
 }
