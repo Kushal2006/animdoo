@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@700&family=Poppins:wght@700&display=swap');
 
 .text-top-header a{
     font-family: 'Poppins', sans-serif;
@@ -10,5 +9,10 @@
 }
 
 .design-trending-middle-content p{
-    font-family: 'Radio Canada', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.trending-footer-etc-content h3{
+    font-family: 'Aleo', serif;
+
 }

@@ -15,6 +15,10 @@ body{
     left: 280px;
 }
 
+.text-top-header h4{
+    font-size: 1.2vw;
+}
+
 .text-top-header a{
     color: white;
     text-decoration: none;
@@ -50,18 +54,18 @@ body{
 
 
 .img-data-middle-content img{
-    width: 253px;
-    height: 143px;
+    width: 79%;
 }
 
 .detail-data-middle-content{
     display: inline-flex;
+    width: 230px;
 }
 
 .detail-data-middle-content h4{
     color: white;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 0.88vw;
     position: relative;
     left: 12px;
     bottom: 5px;
@@ -93,5 +97,21 @@ body{
 
 .design-trending-middle-content p{
     margin-left: 14px;
+    color: white;
+    font-size: 1vw;
+}
+
+.trending-footer-etc-content{
+    width: 605px;
+    height: 67px;
+    background-color: #393E46;
+    margin-left: 355px;
+    text-align: center;
+    border-radius: 54px;
+}
+
+.trending-footer-etc-content h3{
+    position: relative;
+    top: 19px;
     color: white;
 }
