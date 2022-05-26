@@ -3,7 +3,8 @@ body{
 }
 
 .top-header{
-    display: inline-flex;
+    display: flex;
+    justify-content: space-between;
 }
 
 .img-top-header a img{
@@ -18,9 +19,8 @@ body{
     gap: 60px;
     position: relative;
     bottom: 6px;
-    left: 280px;
-}
 
+}    
 .text-top-header h4{
     font-size: 1.2vw;
 }
@@ -30,9 +30,24 @@ body{
     text-decoration: none;
 }
 
+.search-top-header{
+    display: flex;
+    position: relative;
+    right: 35px;
+    top: 9px;
+}
 
+.search-top-header input{
+    height: 28px;
+    background-color: #393E46;
+    border: 1px solid #393E46;
+}
 
-
+.search-top-header i{
+    position: relative;
+    left: 11px;
+    top: 13px;
+}
 
 
 
