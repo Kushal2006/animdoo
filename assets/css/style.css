@@ -45,7 +45,7 @@ body{
 
 .search-top-header i{
     position: relative;
-    left: 11px;
+    left: 10px;
     top: 13px;
 }
 
@@ -100,6 +100,13 @@ body{
     border-radius: 148px;
     width: 40px;
     height: 40px;
+}
+
+.trending-data-middle-content{
+    background-color: #393E46;
+    width: 315px;
+    height: 460px;
+    margin-top: 59px;
 }
 
 .load-middle-content{
@@ -186,11 +193,11 @@ body{
 
 @media (max-width: 488px) and (min-width: 0px){
     .img-top-header a img{
-        width: 53%;
+        width: 56%;
         height: auto;
-        margin-left: -20px;
-        margin-top: 6px;
-        max-width: 54%;
+        margin-left: -15px;
+        margin-top: 5px;
+        max-width: 57%;
     }
 
     .text-top-header{
@@ -198,19 +205,29 @@ body{
         justify-content: space-between;
         gap: 19px;
         position: relative;
-         bottom: -5px;
-        left: -127px;
+        bottom: -5px;
+        left: -83px;
     }
 
     .text-top-header h4{
-        font-size: 2.2vw;
+        font-size: 2.4vw;
         position: relative;
         bottom: 5px;
         left: -23px;
     }
 
+    #search-box{
+        display: none;
+    }
+
+    .search-top-header i {
+        position: relative;
+        left: -18px;
+        top: 7px;
+    }
+
     .img-data-middle-content img {
-        width: 11rem;
+        width: 10rem;
     }
 
     .ul-data-middle-content{
@@ -218,12 +235,12 @@ body{
         margin-left: -41px;
         list-style: none;
         display: grid;
-        grid-template-columns: repeat(2, 185px);
+        grid-template-columns: repeat(2, 165px);
     }
 
     .detail-data-middle-content {
         display: inline-flex;
-        width: 175px;
+        width: 162px;
     }
 
     .detail-data-middle-content img {
