@@ -20,3 +20,8 @@
 .search-top-header input{
     font-family: 'Poppins', sans-serif;
 }
+
+.trending-data-li-data h4{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}

@@ -2,6 +2,11 @@ body{
     background-color: rgb(34, 40, 49);
 }
 
+html,body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
 .top-header{
     display: flex;
     justify-content: space-between;
@@ -109,6 +114,31 @@ body{
     margin-top: 59px;
 }
 
+.trending-data-li{
+    position: relative;
+    left: -2px;
+    top: -7px;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 8px;
+}
+
+.trending-data-li-data{
+    display: flex;
+}
+
+.trending-data-li-data img{
+    width: 30%;
+    position: relative;
+    left: -20px;
+}
+
+.trending-data-li-data h4{
+    margin-left: 32px;
+    margin-top: 32px;
+}
+
 .load-middle-content{
     display: flex;
     text-align: center;
@@ -147,7 +177,7 @@ body{
 
 /* 768 */
 
-@media (max-width: 768px) and (min-width: 380px){
+@media (max-width: 768px) and (min-width: 500px){
     .text-top-header{
         display: inline-flex;
         justify-content: space-between;
@@ -193,11 +223,11 @@ body{
 
 @media (max-width: 488px) and (min-width: 0px){
     .img-top-header a img{
-        width: 56%;
+        width: 62%;
         height: auto;
         margin-left: -15px;
         margin-top: 5px;
-        max-width: 57%;
+        max-width: 62%;
     }
 
     .text-top-header{
@@ -206,7 +236,7 @@ body{
         gap: 19px;
         position: relative;
         bottom: -5px;
-        left: -83px;
+        left: -58px;
     }
 
     .text-top-header h4{
@@ -214,6 +244,13 @@ body{
         position: relative;
         bottom: 5px;
         left: -23px;
+    }
+
+    .search-top-header {
+        display: flex;
+        position: relative;
+        right: 6px;
+        top: 9px;
     }
 
     #search-box{
@@ -238,6 +275,11 @@ body{
         grid-template-columns: repeat(2, 165px);
     }
 
+    .data-middle-content{
+        display: flex;
+        margin-left: 19px;
+    }
+
     .detail-data-middle-content {
         display: inline-flex;
         width: 162px;
@@ -256,6 +298,14 @@ body{
         position: relative;
         left: 12px;
         bottom: 5px;
+    }
+
+    .trending-data-middle-content {
+        display: none;
+        background-color: #393E46;
+        width: 315px;
+        height: 460px;
+        margin-top: 59px;
     }
 
     .load-middle-content{
