@@ -1,4 +1,2 @@
-const search = () =>{
-    const searchbox = document.getElementById("search-box").value.toUpperCase()
-    
-}
+var bhai = "Aur Batao Kya Haal Chal";
+console.log(bhai);
