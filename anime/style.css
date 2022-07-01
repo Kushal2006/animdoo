@@ -1,3 +1,38 @@
 *{
     background-color: rgb(34, 40, 49);
 }
+
+.search-top-header{
+    display: flex;
+    position: relative;
+    right: 45px;
+    top: 10px;
+}
+
+.search-top-header input{
+    height: 28px;
+    background-color: #393E46;
+    border: 1px solid #393E46;
+}
+
+.search-top-header i{
+    position: relative;
+    left: 10px;
+    top: 13px;
+}
+
+.header-play-anime{
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 865px;
+}
+
+.poster-main-body-content{
+    margin-top: 55px;
+    margin-left: 48px;
+}
+
+.poster-main-body-content img{
+    width: 13%;
+    border-radius: 12px;
+}
