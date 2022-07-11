@@ -1,10 +1,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
        <loc>https://animedoo.in</loc>
-       <changefreq>weekly</changefreq>
+       <changefreq>hourly</changefreq>
     </url>
         <url>
        <loc>https://animedoo.in/anime/jujutsu-kaisen</loc>
-       <changefreq>weekly</changefreq>
+       <changefreq>daily</changefreq>
     </url>
 </urlset>
