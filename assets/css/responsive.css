@@ -1,0 +1,123 @@
+@media (min-width:600px) and (max-width:780px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .img-top-header {
+        position: relative;
+        top: 18px;
+        left: -30px;
+    }
+
+    .img-top-header a img {
+        width: 100%;
+        height: auto;
+        max-width: 120%;
+    }
+
+    .text-top-header {
+        font-size: 2vw;
+        display: inline-flex;
+        justify-content: space-between;
+        gap: 24px;
+        position: relative;
+        top: 11px;
+        right: 45px;
+    }
+
+    .text-top-header h4 {
+        font-size: 2vw;
+    }
+
+    .search-top-header {
+        display: flex;
+        position: relative;
+        right: 24px;
+        top: 28px;
+    }
+
+    .ul-data-middle-content {
+        margin-top: 32px;
+        margin-left: -5px;
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(3, 225px);
+        gap: 15px;
+    }
+
+    .img-data-middle-content img {
+        width: 14rem;
+        border-radius: 5px;
+    }
+
+    .load-middle-content {
+        display: flex;
+        text-align: center;
+        background: #393E46;
+        width: 115px;
+        height: 37px;
+        margin-left: 335px;
+        border: 1px solid black;
+        cursor: pointer;
+    }
+
+    .trending-data-middle-content {
+        display: none;
+    }
+}
+
+@media (min-width:350px) and (max-width:450px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .img-top-header a img {
+        width: 167%;
+        height: auto;
+        max-width: 167%;
+    }
+
+    .ul-data-middle-content {
+        margin-top: 60px;
+        margin-left: -21px;
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(2, 179px);
+        gap: 6px;
+    }
+
+    .img-data-middle-content img {
+        width: 11rem;
+        border-radius: 5px;
+    }
+
+    .trending-data-middle-content{
+        display: none;
+    }
+
+    .detail-data-middle-content {
+        display: inline-flex;
+        width: 196px;
+    }
+
+    .detail-data-middle-content h4 {
+        color: white;
+        text-decoration: none;
+        font-size: 0.72rem;
+        position: relative;
+        left: 16px;
+        bottom: 12px;
+    }
+
+    .load-middle-content {
+        display: flex;
+        text-align: center;
+        background: #393E46;
+        width: 115px;
+        height: 37px;
+        margin-left: 132px;
+        border: 1px solid black;
+        cursor: pointer;
+    }
+}
